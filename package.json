@@ -1,0 +1,22 @@
+{
+  "name": "simple_func",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hochan222/simple_func.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hochan222/simple_func/issues"
+  },
+  "homepage": "https://github.com/hochan222/simple_func#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}

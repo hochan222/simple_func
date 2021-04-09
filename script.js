@@ -15,7 +15,4 @@ function formatNumber(num)
     return result
 }
 
-console.log(formatNumber(1000))
-console.log(formatNumber(123456))
-console.log(formatNumber(1234567))
-console.log(formatNumber(12345678))
+module.exports = formatNumber;
