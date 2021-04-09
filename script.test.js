@@ -15,3 +15,7 @@ test("1234567", () => {
 test("12345678", () => {
   expect(formatNumber(12345678)).toBe("12,345,678");
 });
+
+test("a1234", () => {
+  expect(() => formatNumber('a1234')).toThrow();
+});
